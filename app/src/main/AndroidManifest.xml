@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="canali.meridian.cybraum.restaurant">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lcon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lcon"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splsh_Login.Splash"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splsh_Login.LoginSelection"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Splsh_Login.Login"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Waiter.category.Select_catogory"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Waiter.food_menu.MenuPage"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            />
+        <activity android:name=".Waiter.table.TableSelection"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Kitchen.Kitchen_orderlist"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Waiter.food_menu.CartPage"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Waiter.food_menu.ViewOrders"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".Waiter.food_menu.View_items"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+
+    </application>
+
+</manifest>

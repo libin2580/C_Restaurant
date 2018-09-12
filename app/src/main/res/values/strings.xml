@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Canali Restaurant</string>
+    <string name="error">Error</string>
+    <string name="id">             ID NO is empty</string>
+    <string name="section">         Section Name is empty</string>
+    <string name="ok">OK</string>
+    <string name="user_text">           Username is empty</string>
+    <string name="pass_text">           Password is empty</string>
+    <string name="internet">No internet connection</string>
+</resources>
